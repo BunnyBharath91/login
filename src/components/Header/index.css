@@ -1,0 +1,31 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 45px;
+  font-family: 'Roboto';
+}
+.website-logo {
+  width: 120px;
+}
+.header-items-container {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+.header-item {
+  list-style-type: none;
+  margin: 0px 6px;
+}
+.logout-button {
+  background-color: #0967d2;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+}
